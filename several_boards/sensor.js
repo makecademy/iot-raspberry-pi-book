@@ -7,6 +7,7 @@ var sensorLib = require('node-dht-sensor');
 // Set ID & name
 piREST.set_id('p5dgwt');
 piREST.set_name('pi_sensor');
+piREST.set_mode('bcm');
 
 // Connect to cloud.aREST.io
 piREST.connect();
